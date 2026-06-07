@@ -9,27 +9,31 @@ function App() {
         <nav className="navbar">
           <h2 className="logo">SEAN SAMENG</h2>
 
-          <ul className="navLinks ">
+          <ul className="navLinks">
             <li>
               <a href="#home" style={{ textDecoration: "none", color: "#0f172a" }}>
                 Home
               </a>
             </li>
+
             <li>
               <a href="#about" style={{ textDecoration: "none", color: "#0f172a" }}>
                 About
               </a>
             </li>
+
             <li>
               <a href="#skills" style={{ textDecoration: "none", color: "#0f172a" }}>
                 Skills
               </a>
             </li>
+
             <li>
               <a href="#projects" style={{ textDecoration: "none", color: "#0f172a" }}>
                 Projects
               </a>
             </li>
+
             <li>
               <a href="#contact" style={{ textDecoration: "none", color: "#0f172a" }}>
                 Contact
@@ -39,16 +43,18 @@ function App() {
         </nav>
       </header>
 
-      <section className="hero">
+      <section className="hero" id="home">
         <div className="heroText">
           <p className="smallTitle">Hello, I am</p>
+
           <h1>SEAN SAMENG</h1>
+
           <h2>Full-Stack Software Developer</h2>
 
           <p>
-            I build responsive websites, web applications, REST APIs, and
-            database systems using React, Java Spring Boot, Laravel, MySQL,
-            HTML, CSS, and JavaScript.
+            I build responsive websites, web applications, desktop applications,
+            REST APIs, and database systems using React, Java, Spring Boot,
+            Laravel, MySQL, SQL Server, HTML, CSS, and JavaScript.
           </p>
 
           <div className="buttons">
@@ -63,36 +69,43 @@ function App() {
         </div>
 
         <div className="heroCard">
-          {/* <div className="avatar">SS</div> */}
           <img src={myImage} alt="Sean Sameng" className="avatar" />
+
           <h3>Available for Freelance</h3>
+
           <p>Web Development • Data Entry • Bug Fixing</p>
         </div>
       </section>
 
       <section className="section" id="about">
         <h2>About Me</h2>
+
         <p>
           I am a Software Development graduate from IT STEP Computer Academy.
-          I have experience in frontend, backend, database design, REST APIs,
-          and responsive website development.
+          I have experience in frontend development, backend development,
+          database design, REST APIs, desktop applications, and responsive
+          website development.
         </p>
       </section>
 
-      <section className="section dark">
+      <section className="section dark" id="skills">
         <h2>My Skills</h2>
 
-        <div className="skills" id="skills">
+        <div className="skills">
           <span>HTML</span>
           <span>CSS</span>
           <span>JavaScript</span>
           <span>React</span>
+          <span>Next.js</span>
           <span>Java</span>
           <span>Spring Boot</span>
           <span>PHP</span>
           <span>Laravel</span>
           <span>MySQL</span>
+          <span>SQLite</span>
+          <span>SQL Server</span>
           <span>C#</span>
+          <span>WinForms</span>
           <span>GitHub</span>
           <span>Data Entry</span>
         </div>
@@ -103,30 +116,48 @@ function App() {
 
         <div className="projects">
           <div className="projectCard">
-            <h3>Homestay Booking Management System</h3>
+            <h3>E-commerce Graduation Project</h3>
+
             <p>
-              Full-stack booking system with authentication, booking management,
-              payment tracking, and admin dashboard.
+              A graduation project for an online store with product management,
+              shopping features, responsive design, and database integration.
             </p>
-            <strong>Java • Spring Boot • React • MySQL</strong>
+
+            <strong>React • JavaScript • MySQL • CSS</strong>
           </div>
 
           <div className="projectCard">
-            <h3>Book Store Website</h3>
+            <h3>Student Attendance System</h3>
+
             <p>
-              Online bookstore project with book listing, search, category
-              management, and responsive design.
+              A student attendance project for managing student records,
+              tracking attendance, and viewing attendance information.
             </p>
-            <strong>Laravel • React • MySQL</strong>
+
+            <strong>Java • Android • SQLite</strong>
           </div>
 
           <div className="projectCard">
             <h3>Inventory Management System</h3>
+
             <p>
-              Desktop application for managing products, suppliers, customers,
-              stock, purchases, and sales.
+              A Windows Forms desktop application for managing products,
+              categories, suppliers, customers, stock, purchases, and sales.
             </p>
+
             <strong>C# • WinForms • SQL Server</strong>
+          </div>
+
+          <div className="projectCard">
+            <h3>Sound Catalog Website</h3>
+
+            <p>
+              A Laravel web application for managing sound categories,
+              uploading sound files, searching records, and organizing audio
+              content.
+            </p>
+
+            <strong>PHP • Laravel • MySQL • Bootstrap</strong>
           </div>
         </div>
       </section>
