@@ -1,3 +1,6 @@
+import React from "react";
+import "./index.css";
+
 function App() {
   return (
     <div>
@@ -5,18 +8,31 @@ function App() {
         <nav className="navbar">
           <h2 className="logo">SEAN SAMENG</h2>
 
-          <ul className="navLinks">
+          <ul className="navLinks ">
             <li>Home</li>
             <li>About</li>
-            <li>Skills</li>
             <li>
-
-              <a href="#projects" className="btn primaryBtn">
-                View Projects
+              <a href="#skills" style={{ textDecoration: "none", color: "#0f172a" }}>
+                Skills
+              </a>
+            </li>
+            <li>
+              <a href="#projects" style={{ textDecoration: "none", color: "#0f172a" }}>
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href="#contact" style={{ textDecoration: "none", color: "#0f172a" }}>
+                Contact
+              </a>
+            </li>
+            <li>
+              <a href="#" >
+                Projects
               </a>
 
+
             </li>
-            <li>Contact</li>
           </ul>
         </nav>
       </header>
