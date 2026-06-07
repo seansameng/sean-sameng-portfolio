@@ -302,4 +302,46 @@ body {
     .skills {
         grid-template-columns: 1fr;
     }
+
+
+    .educationBox {
+        margin-top: 28px;
+        padding: 24px;
+        background: #eff6ff;
+        border: 1px solid #bfdbfe;
+        border-radius: 16px;
+    }
+
+    .educationBox h3 {
+        color: #2563eb;
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+
+    .educationBox p {
+        margin-bottom: 8px;
+        color: #334155;
+    }
+
+    .aboutLinks {
+        margin-top: 18px;
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+    }
+
+    .aboutLinks a {
+        background: #2563eb;
+        color: white;
+        padding: 11px 18px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .aboutLinks a:hover {
+        background: #1d4ed8;
+        transform: translateY(-2px);
+    }
 }
