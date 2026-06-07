@@ -82,17 +82,51 @@ function App() {
 
         <div className="aboutBox">
           <p>
-            I am a Software Development graduate from IT STEP Computer Academy with
-            experience in frontend development, backend development, database design,
-            REST APIs, desktop applications, and responsive website development.
+            I am a Software Development graduate from IT STEP Computer Academy.
+            I have experience in frontend development, backend development,
+            database design, REST APIs, desktop applications, and responsive
+            website development.
           </p>
 
           <p>
-            I enjoy building clean, useful, and user-friendly applications. I have
-            worked with technologies such as React, Java, Spring Boot, PHP, Laravel,
-            MySQL, SQL Server, C#, and Windows Forms. I am also improving my skills in
-            freelancing, real-world project development, and modern web deployment.
+            I studied software development with practical training in C#, Java,
+            PHP, Laravel, React, MySQL, SQL Server, JavaScript, HTML, CSS,
+            and software engineering concepts.
           </p>
+
+          <div className="educationBox">
+            <h3>Education</h3>
+
+            <p>
+              <strong>School:</strong> IT STEP Computer Academy Cambodia
+            </p>
+
+            <p>
+              <strong>Program:</strong> Software Development
+            </p>
+
+            <p>
+              <strong>Study Duration:</strong> 2.5 Years
+            </p>
+
+            <div className="aboutLinks">
+              <a
+                href="https://your-school-website.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Visit School Website
+              </a>
+
+              <a
+                href="/certificates/step-certificate.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Certificate
+              </a>
+            </div>
+          </div>
 
           <div className="aboutStats">
             <div>
@@ -186,15 +220,42 @@ function App() {
         </div>
       </section>
 
-      <section className="section dark" id="contact">
+      <section className="section contactSection" id="contact">
         <h2>Contact Me</h2>
+        <p className="sectionIntro">
+          I am available for freelance work, web development, bug fixing, and simple
+          data entry tasks.
+        </p>
 
-        <div className="contactBox">
-          <p>Email: seansameng@gmail.com</p>
-          <p>Phone: +855 060 427 579</p>
-          <p>Location: Phnom Penh, Cambodia</p>
-          <p>GitHub: github.com/seansameng</p>
-          <p>LinkedIn: linkedin.com/in/seansameng</p>
+        <div className="contactGrid">
+          <div className="contactCard">
+            <h3>Email</h3>
+            <a href="mailto:seansameng@gmail.com">seansameng@gmail.com</a>
+          </div>
+
+          <div className="contactCard">
+            <h3>Phone</h3>
+            <a href="tel:+85560427579">+855 060 427 579</a>
+          </div>
+
+          <div className="contactCard">
+            <h3>Location</h3>
+            <p>Phnom Penh, Cambodia</p>
+          </div>
+
+          <div className="contactCard">
+            <h3>GitHub</h3>
+            <a href="https://github.com/seansameng" target="_blank">
+              github.com/seansameng
+            </a>
+          </div>
+
+          <div className="contactCard">
+            <h3>LinkedIn</h3>
+            <a href="https://linkedin.com/in/seansameng" target="_blank">
+              linkedin.com/in/seansameng
+            </a>
+          </div>
         </div>
       </section>
 
