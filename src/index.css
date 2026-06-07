@@ -43,10 +43,11 @@ body {
 
 .navLinks li {
     cursor: pointer;
+
 }
 
 .navLinks li:hover {
-    color: #2563eb;
+    color: #0952f0;
 }
 
 .hero {
