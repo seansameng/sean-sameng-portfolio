@@ -9,8 +9,16 @@ function App() {
           <h2 className="logo">SEAN SAMENG</h2>
 
           <ul className="navLinks ">
-            <li>Home</li>
-            <li>About</li>
+            <li>
+              <a href="#home" style={{ textDecoration: "none", color: "#0f172a" }}>
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#about" style={{ textDecoration: "none", color: "#0f172a" }}>
+                About
+              </a>
+            </li>
             <li>
               <a href="#skills" style={{ textDecoration: "none", color: "#0f172a" }}>
                 Skills
@@ -25,13 +33,6 @@ function App() {
               <a href="#contact" style={{ textDecoration: "none", color: "#0f172a" }}>
                 Contact
               </a>
-            </li>
-            <li>
-              <a href="#" >
-                Projects
-              </a>
-
-
             </li>
           </ul>
         </nav>
