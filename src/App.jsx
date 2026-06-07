@@ -111,21 +111,19 @@ function App() {
 
             <div className="aboutLinks">
               <a
-                href="https://cambodia.itstep.org/"
+                href="https://your-school-website.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                Visit School Website
+                View School Website
               </a>
 
-
-
               <a
-                href="https://cambodia.itstep.org/certificates/step-certificate.pdf"
+                href="/certificates/step-certificate.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
-                View Certificate
+                View Certification
               </a>
             </div>
           </div>
