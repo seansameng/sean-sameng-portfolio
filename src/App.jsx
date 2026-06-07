@@ -9,7 +9,13 @@ function App() {
             <li>Home</li>
             <li>About</li>
             <li>Skills</li>
-            <li>Projects</li>
+            <li>
+
+              <a href="#projects" className="btn primaryBtn">
+                View Projects
+              </a>
+
+            </li>
             <li>Contact</li>
           </ul>
         </nav>
