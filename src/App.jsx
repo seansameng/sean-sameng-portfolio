@@ -77,17 +77,41 @@ function App() {
         </div>
       </section>
 
-      <section className="section" id="about">
+      <section className="section aboutSection" id="about">
         <h2>About Me</h2>
 
-        <p>
-          I am a Software Development graduate from IT STEP Computer Academy.
-          I have experience in frontend development, backend development,
-          database design, REST APIs, desktop applications, and responsive
-          website development.
-        </p>
-      </section>
+        <div className="aboutBox">
+          <p>
+            I am a Software Development graduate from IT STEP Computer Academy with
+            experience in frontend development, backend development, database design,
+            REST APIs, desktop applications, and responsive website development.
+          </p>
 
+          <p>
+            I enjoy building clean, useful, and user-friendly applications. I have
+            worked with technologies such as React, Java, Spring Boot, PHP, Laravel,
+            MySQL, SQL Server, C#, and Windows Forms. I am also improving my skills in
+            freelancing, real-world project development, and modern web deployment.
+          </p>
+
+          <div className="aboutStats">
+            <div>
+              <h3>2.5 Years</h3>
+              <span>Software Development Study</span>
+            </div>
+
+            <div>
+              <h3>Full-Stack</h3>
+              <span>Frontend + Backend</span>
+            </div>
+
+            <div>
+              <h3>Freelance</h3>
+              <span>Available for Work</span>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="section dark" id="skills">
         <h2>My Skills</h2>
 
