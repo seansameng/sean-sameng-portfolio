@@ -326,8 +326,9 @@ body {
     .aboutLinks {
         margin-top: 18px;
         display: flex;
-        gap: 14px;
-        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
     }
 
     .aboutLinks a,
