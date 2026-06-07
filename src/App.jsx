@@ -111,15 +111,17 @@ function App() {
 
             <div className="aboutLinks">
               <a
-                href="https://your-school-website.com"
+                href="https://cambodia.itstep.org/"
                 target="_blank"
                 rel="noreferrer"
               >
                 Visit School Website
               </a>
 
+
+
               <a
-                href="/certificates/step-certificate.pdf"
+                href="https://cambodia.itstep.org/certificates/step-certificate.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -174,14 +176,14 @@ function App() {
 
         <div className="projects">
           <div className="projectCard">
-            <h3>E-commerce Graduation Project</h3>
+            <h3  >E-commerce Graduation Project</h3>
 
             <p>
               A graduation project for an online store with product management,
               shopping features, responsive design, and database integration.
             </p>
 
-            <strong>React • JavaScript • MySQL • CSS</strong>
+            <strong>React • JAVA  Spring Boot • MySQL </strong>
           </div>
 
           <div className="projectCard">
