@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import myImage from "./assets/sean.png";
 
 function App() {
   return (
@@ -62,7 +63,8 @@ function App() {
         </div>
 
         <div className="heroCard">
-          <div className="avatar">SS</div>
+          {/* <div className="avatar">SS</div> */}
+          <img src={myImage} alt="Sean Sameng" className="avatar" />
           <h3>Available for Freelance</h3>
           <p>Web Development • Data Entry • Bug Fixing</p>
         </div>
